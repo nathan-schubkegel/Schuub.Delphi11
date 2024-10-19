@@ -1,0 +1,4 @@
+# The line "* text=auto !eol" means the following:
+#  For text files (auto-detected), EOLs will be converted on checkout to OS-dependent EOL (LF for Unix, CRLF for Windows).
+#  No EOL (end of line) conversion for binary files.
+* text=auto !eol
