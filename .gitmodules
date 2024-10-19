@@ -1,0 +1,4 @@
+[submodule "Schuub.Delphi11.Bpls"]
+	path = Schuub.Delphi11.Bpls
+	url = https://github.com/nathan-schubkegel/Schuub.Delphi11.Bpls.git
+	branch = master
