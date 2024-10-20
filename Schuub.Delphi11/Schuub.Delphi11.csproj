@@ -12,14 +12,6 @@
     <Content Include="../Schuub.Delphi11.Native/bin/Schuub.Delphi11.Native.x64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="../Schuub.Delphi11.Bpls/x64/rtl280.bpl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Link>x64/rtl280.bpl</Link>
-    </Content>
-    <Content Include="../Schuub.Delphi11.Bpls/x86/rtl280.bpl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Link>x86/rtl280.bpl</Link>
-    </Content>
   </ItemGroup>
 
   <!-- files that are convenient to have listed in the solution exporer -->

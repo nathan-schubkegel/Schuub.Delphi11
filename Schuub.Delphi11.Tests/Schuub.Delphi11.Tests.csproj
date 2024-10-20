@@ -18,5 +18,16 @@
     <ProjectReference Include="../Schuub.Delphi11/Schuub.Delphi11.csproj" />
   </ItemGroup>
 
+  <!-- files that must be included next to the built DLL -->
+  <ItemGroup>
+    <Content Include="../Schuub.Delphi11.Bpls/x64/rtl280.bpl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>x64/rtl280.bpl</Link>
+    </Content>
+    <Content Include="../Schuub.Delphi11.Bpls/x86/rtl280.bpl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>x86/rtl280.bpl</Link>
+    </Content>
+  </ItemGroup>
 
 </Project>
